@@ -1,0 +1,324 @@
+/*PopUp Update Data Customer*/
+.input-content {
+	padding: 16px;
+}
+.input-content label{
+	margin-left: 8ex;
+	margin-bottom: 2px;
+}
+.input-content .login-input{
+	width: 75%;
+	padding: 10px 12px;
+	margin: 1% 12.5%;
+	display: inline-block;
+	border-top: 1.4px solid #eee;
+	border-left: 1.8px solid #ddd;
+	box-sizing: border-box;
+}
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+	width: auto;
+	padding: 10px 18px;
+	background-color: #f44336;
+  }
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+	text-align: center;
+	margin: 10px 0 12px 0;
+	position: relative;
+  }
+  
+  img.avatar {
+	width: 40%;
+	border-radius: 50%;
+  }
+ 
+  span.psw {
+	float: right;
+	padding-top: 16px;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 12; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+	background-color: #fefefe;
+	margin: 1% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+	border: 1px solid #888;
+	width: 40%; /* Could be more or less, depending on screen size */
+	height: 85%;
+  }
+  
+  /* The Close Button (x) */
+ .modal .modal-content .close {
+	position: absolute;
+	right: 25px;
+	top: 0;
+	color: #000;
+	font-size: 35px;
+	font-weight: bold;
+  }
+  
+  .modal .modal-content .close:hover,
+  .modal .modal-content .close:focus {
+	color: red;
+	cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+	-webkit-animation: animatezoom 0.6s;
+	animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+	from {-webkit-transform: scale(0)} 
+	to {-webkit-transform: scale(1)}
+  }
+	
+  @keyframes animatezoom {
+	from {transform: scale(0)} 
+	to {transform: scale(1)}
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+	span.psw {
+	   display: block;
+	   float: none;
+	}
+	.cancelbtn {
+	   width: 100%;
+	}
+  }
+
+  /* Content User.php*/
+  .content .user-content .side-menu{
+	  margin-bottom: 3%;
+  }
+.content .user-content .side-menu .username {
+	border: 2px solid #000;
+	width: 80%;
+	margin-left: 11%;
+	background-color: #222222;
+	color: white;
+	padding-top: 3%;
+	padding-bottom: 3%;
+} 
+.content .user-content .side-menu .username .fa-user-circle{
+	font-size: 23px; 
+	padding-left: 22%;
+}
+.content .user-content .side-menu .submenu {
+	border: 2px solid #000;
+	width: 80%;
+	margin-left: 11%;
+	padding: 0;
+} 
+.content .user-content .side-menu .submenu ul{
+	margin: 0;
+	padding: 0;
+}
+.content .user-content .table-order{
+	width: 80%;
+	margin: 2% 10%;
+}
+.content .user-content .table-order .table {
+	border: 1px solid rgb(99, 97, 97);
+	width: 100%; 
+	text-align: center;
+	border-radius: 3px;
+} 
+.content .user-content .table-order .table tr .name-product .name_product_content{
+	float:left;
+	color: #000;
+}
+.content .user-content .table-order .table tr .id_order a {
+	font-weight: bold;
+	font-size: 20px;
+	color: #000;
+}
+.subc{
+	list-style-type: none;
+	display: block;
+	padding: 5%;
+	border: 1px solid wheat;
+	text-align: center;
+}
+
+.subc:hover{
+	background-color: lightblue;
+	color: rgb(226, 19, 64);
+	transition: 1s all;
+	font-weight: bolder;
+
+}
+.information-user {
+	border: 2px dotted black; 
+	margin-left: 11%;
+	width: 80%; padding-top: 3%;
+	padding-bottom: 2%; padding-left: 3%;
+	padding-right: 3%; border-radius: 5px;}
+.information .btn-outline-primary {
+	margin-left: 11%;
+	
+}
+.information-user .title-infor{
+	font-weight: bold; font-size: 18px;
+}
+.name-product{
+	width: 32%;
+	padding-left: 2ex;
+	padding-right: 2ex;
+}
+
+
+.content p{
+	font-weight: lighter;
+}
+
+.td
+{
+	width: 15%;
+	padding: 0.7em;
+	background-color: rgb(214, 214, 214);
+}
+
+
+.tr
+{
+	width: 8%;
+	padding: 0.7em;
+	background-color: rgb(214, 214, 214);
+}
+.tongtien
+{
+	width: 15%;
+	padding: 0.7em;
+}
+.user-content{
+	padding: 3ex;
+	margin-left: 0%;
+	overflow: hidden;
+}
+
+/* Chi Tiet Hoa Don*/
+.wrapper{
+	width: 80%;
+	margin:0 10%;
+}
+
+.detail-order-table .wrapper .order_summary tr>td, 
+.detail-order-table .wrapper .order_summary tr>th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    font-weight: normal;
+}
+.order_avail {
+    text-align: center;
+}
+.img_order {
+    vertical-align: top;
+    max-width: 100%;
+}
+.detail-order-table .wrapper .order_summary{
+	border: 1px solid #555;
+}
+.detail-order-table .wrapper .order_summary > thead, 
+.detail-order-table .wrapper .order_summary > tfoot {
+    background: #f7f7f7;
+    font-size: 16px;
+}
+.detail-order-table .wrapper .order_summary td.order_product {
+    width: 120px;
+    padding: 15px;
+}
+.page-order .order_description {
+    font-size: 14px;
+}
+.page-order .product-name {
+    font-size: 16px;
+}
+.detail-order-table .wrapper .order_summary td {
+    vertical-align: middle!important;
+    padding: 20px;
+}
+.detail-order-table .wrapper .order_summary a {
+    color: #666;
+    text-decoration: none;
+	outline: none !important;
+}
+
+.detail-order-table .wrapper .order_summary .price {
+    text-align: right;
+}
+.detail-order-table .wrapper .order_summary .action {
+    text-align: center;
+}
+.detail-order-table .wrapper .order_summary .action a {
+    background: url(https://i.imgur.com/wBgtljO.png) no-repeat center center;
+    font-size: 0;
+    height: 9px;
+    width: 9px;
+    display: inline-block;
+    line-height: 24px;
+}
+.detail-order-table .wrapper .order_summary tfoot {
+    text-align: right;
+}
+
+
+/*Respondsive*/
+@media screen and (max-width: 900px) {
+	.font, .information-user .title-infor{
+		font-size: 16.5px;
+	}
+}
+@media screen and (max-width: 800px) {
+	.font, .information-user .title-infor {
+		font-size: 15px;
+	}
+}
+@media screen and (max-width: 700px) {
+	.font, .information-user .title-infor {
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 600px) {
+	.font, .information-user .title-infor{
+		font-size: 13px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.font, .information-user .title-infor{
+		font-size: 13.5px;
+	}
+}
+@media screen and (max-width: 430px) {
+	.font, .information-user .title-infor{
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 300px) {
+	.font, .information-user .title-infor {
+		font-size: 10.4px;
+	}
+}

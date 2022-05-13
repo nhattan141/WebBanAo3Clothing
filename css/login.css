@@ -1,0 +1,223 @@
+*{
+    padding:0;
+    margin: 0;
+    background-image: url(../images/background_login.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.error{
+    color: red;
+    font-weight: bold;
+    margin-left: 60%;
+}
+
+.container-fluid .form-login {
+    margin: 5ex;
+    border: 3px solid rgb(15, 15, 15);
+    box-shadow: 10px 7px 9px #eee;
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0;
+}
+.container-fluid .form-login .login-content{
+    
+}
+.container-fluid  .form-login .login-content .imgcontainer {
+    text-align: center;
+    width: 25%;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+    position: relative;
+  }
+.container-fluid .form-login .login-content img.avatar {
+    width: 25%;
+    border-radius: 50%;
+    margin-top: 2%;
+  }
+  .container-fluid .form-login .login-content  .login-input {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 1% 12.5%;
+    display: inline-block;
+    border-top: 1.4px solid #eee;
+    border-left: 1.8px solid #ddd;
+    box-sizing: border-box;
+  }
+  .container-fluid .form-login .login-content .container label{
+	width: 50%;
+	margin-left: 12.5%;
+}
+.container-fluid .form-login .login-content .button-login  {
+    background-color: #3366ff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    display: block;
+    margin-left: 20%;
+    margin-bottom: 3ex;
+    font-weight: bold;
+  }
+
+  .container-fluid .form-login .login-content .button-login:hover {
+    background-color: #4CAF50;
+    border: 2px solid #000;
+    border-radius: 1.5ex;
+  
+  }
+  .container-fluid .form-login .login-content .container-cancel {
+    padding: 16px;
+    background-color: #888;
+    border-top: 1.5px solid #ccc;
+    margin: 0;
+  
+  }
+  .container-fluid .form-login .login-content.container-cancel a{
+      text-decoration: none;
+      color: #000;
+  }
+  .container-fluid .form-login .login-content span.psw {
+    float: right;
+    padding-top: 1.5ex;
+    margin-right: 5ex;
+  
+  }
+  .container-fluid .form-login .login-content span.psw a:hover{
+      color: #2a9709;
+  }
+  
+  .container-fluid .form-login .login-content .cancelbtn {
+    width: auto;
+    margin-left: 5ex;
+    padding: 1ex;
+    background-color: #ff3300;
+    font-weight: bold;
+    border: 0.5px solid #000;
+    border-radius: 1ex;
+  }
+  .container-fluid .form-login .login-content .cancelbtn:hover{
+      background-color: #ff0000;
+      box-shadow: 1.2px 1.2px 3px #666;
+  }
+  .container-fluid .form-login .login-content a{
+      text-decoration: none;
+      color: #000;
+  }
+  
+  @media screen and (max-width: 900px) {
+    span.psw {
+       display: block;
+       float: none;
+       
+    }
+    .container-fluid .form-login{
+        font-size: 16.5px;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    span.psw {
+       display: block;
+       float: none;
+       
+    }
+    .container-fluid .form-login{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 650px) {
+    span.psw {
+       display: block;
+       float: none;
+       
+    }
+    .container-fluid .form-login{
+        font-size: 13.5px;
+    }
+  }
+@media screen and (max-width: 500px) {
+  span.psw {
+     display: block;
+     float: none;
+     
+  }
+  .container-fluid .form-login{
+      font-size: 12px;
+  }
+}
+@media screen and (max-width: 380px) {
+    span.psw {
+       display: block;
+       float: none;
+       
+    }
+    .container-fluid .form-login{
+        font-size: 10.5px;
+    }
+ 
+  }
+@media screen and (max-width: 350px) {
+    span.psw {
+       display: block;
+       float: none;
+       
+    }
+    .container-fluid .form-login{
+        font-size: 9.5px;
+    }
+ 
+  }
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+       
+    }
+    .container-fluid .form-login{
+        font-size: 8.5px;
+    }
+ 
+  }
+  @media screen and (max-width: 287px) {
+    span.psw {
+       display: block;
+       float: none;
+       
+    }
+    .container-fluid .form-login{
+        font-size: 7.5px;
+    }
+ 
+  }
+  @media screen and (max-width: 267px) {
+    span.psw {
+       display: block;
+       float: none;
+       
+    }
+    .container-fluid .form-login{
+        font-size: 6.6px;
+    }
+ 
+  }
+  @media screen and (max-width: 250px) {
+    span.psw {
+       display: block;
+       float: none;
+       
+    }
+    .container-fluid .form-login{
+        font-size: 5.5px;
+    }
+ 
+  }

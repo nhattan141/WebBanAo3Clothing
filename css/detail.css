@@ -1,0 +1,291 @@
+/*detail*/
+.container-fluid .detail{
+    padding: 3ex;
+    justify-content: center;
+    text-align: justify;
+  }
+  .container-fluid .chitiet{
+      width: 1300px; 
+      margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2ex;
+  }
+  .container-fluid .chitiet .warn{
+    color: #1f1cfd;
+    font-size: 18px;
+  }
+  .container-fluid .chitiet .wrap .row{
+    margin-top: 2ex;
+  }
+  .container-fluid .chitiet .wrap .row img{
+    border: 2px solid #555;
+    width: 90%;
+  
+  }
+  .container-fluid .chitiet .images{
+    padding-right: 8ex;
+    width: auto;
+    height: auto;
+  }
+  .container-fluid .chitiet .wrap .item{
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 5px #ddd;
+  
+  }
+  .container-fluid .chitiet .wrap .row img:hover{
+    box-shadow: 3px 3px 30px #eee;
+  }
+
+  /*Image ZOOM*/
+  .img-zoom-result {
+      margin-top: 8px;
+    border: 2px solid #d4d4d4;
+    /*set the size of the result div:*/
+    width: 505px;
+    height: 400px;
+    box-shadow: 5px 6px  #ddd;
+  }
+  /* con trỏ ZOOM*/
+  .img-zoom-lens {
+    position: absolute;
+    border: 2px solid #1cf74b;
+    /*set the size of the lens:*/
+    width: 100px;
+    height: 100px;
+    z-index: 2;
+  }
+ .sold-out{
+   
+   color: #ff0000;
+   font-weight: bold;
+   font-size: 18px;
+ }
+  .details{
+      margin: 0 0 4%;
+  }
+  
+  .buttons_added{
+      margin-bottom: 2%;
+  }
+  .size-chitiet{
+      margin-bottom: 2%;
+  }
+  .ega-swatch__heading {
+      display: inline-block;
+      margin-right: 32px;
+      margin-top: 1%;
+      font-size: 16px;
+      color: #0E1C22;
+      opacity: 0.6;
+      font-weight: normal;
+      vertical-align: top;
+  }
+  .ega-swatch__element {
+      margin: 8px 12px 0 0;
+  }
+  .btn-chitiet{
+      width: 4%;
+      cursor: pointer;
+  }
+  .wrap {
+      position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    width: 100%;
+    height: 500px;
+    margin: 0 15px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  /*nút tăng giảm số lượng css */
+  /* <![CDATA[ */
+  .buttons_added {
+      opacity:1;
+      display:inline-block;
+      display:-ms-inline-flexbox;
+      display:inline-flex;
+      white-space:nowrap;
+      vertical-align:top;
+      
+  }
+  .is-form {
+      overflow:hidden;
+      position:relative;
+      background-color:#f9f9f9;
+      height:2.2rem;
+      width:1.9rem;
+      padding:0;
+      text-shadow:1px 1px 1px #fff;
+      border:1px solid #ddd;
+  }
+  .is-form:focus,.input-text:focus {
+      outline:none;
+  }
+  .is-form.minus {
+      border-radius:4px 0 0 4px;
+  }
+  .is-form.plus {
+      border-radius:0 4px 4px 0;
+  }
+  .input-qty {
+      height: 2.2rem;
+      text-align: center;
+      font-size: 1rem;
+      display: inline-block;
+      vertical-align: top;
+      margin: 0px;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+      padding: 0px;
+  }
+  .input-qty::-webkit-outer-spin-button,.input-qty::-webkit-inner-spin-button {
+      -webkit-appearance:none;
+      margin:0;
+  }
+  /* ]]> */
+  .qty-name{
+      display: inline-block;
+      margin-right: 32px;
+      font-size: 16px;
+      color: #0E1C22;
+      opacity: 0.6;
+      font-weight: normal;
+      vertical-align: top;
+      margin-top: 8px;
+  }
+  
+  .select-size{
+      width:auto;
+  font-weight: bold;
+  margin-top: -2%;
+  margin-bottom: 3%;
+  
+  }
+  /*image-details*/
+  * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .column {
+      float: left;
+      width: 25%;
+      padding: 10px;
+    }
+    .column img {
+      opacity: 0.8; 
+      cursor: pointer; 
+    }
+    
+    .column img:hover {
+      opacity: 1;
+    }
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .container {
+      position: relative;
+      display: none;
+    }
+    #imgtext {
+      position: absolute;
+      bottom: 15px;
+      left: 15px;
+      color: white;
+      font-size: 20px;
+    }
+    .closebtn {
+      position: absolute;
+      top: 100px;
+      right: 105px;
+      color: white;
+      font-size: 35px;
+      cursor: pointer;
+    }
+    .btn-outline-dark{
+      font-weight: bold;
+      margin-right: 3px;
+      justify-content: center;
+      padding: 0  4px 0 2px ;
+      border-radius: 3px;
+    }
+  .titleproduct{
+    font-size: 4ex;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+  .table-size{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 12; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; 
+    padding: 18%;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 10ex;
+  }
+  .container-fluid .table-size-content {
+    background-color: #fff;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 3px solid rgb(3, 94, 30);
+    width: 90%; 
+    border-radius: 6px;
+    padding: 3ex;
+    box-shadow: 3px 2px 10px #ddd;
+    justify-content: center;
+  }
+  .container-fluid .table-size-content h4{
+    width: 54%;
+    margin: 2ex 23%;
+    font-weight: bold;
+    color: #ff0000;
+  }
+  .container-fluid .table-size-content table{
+    width: 90%;
+    margin: auto;
+    border: 2px solid #0E1C22;
+  }
+  .container-fluid .table-size-content  .close-table-size{
+    position: absolute;
+    top: 18%;
+    right: 24%;
+    color: rgb(228, 36, 36);
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .container-fluid .table-size-content .table-bordered tr.header{
+    font-weight: bold;
+    background-color: #0E1C22;
+    color: #fff;
+  }
+  .container-fluid .table-size-content .table-bordered tr.header th{
+    border-right: none;
+    justify-content: center;
+  }
